@@ -1,0 +1,15 @@
+main{
+    var float teste_a;
+    teste_a := 20;
+    if(true) {
+        teste_a := quadrado(teste_a);
+    };
+    do {
+        teste_a := (teste_a - 10);
+    } while ((teste_a > 100));
+    print(teste_a);
+}
+
+function float quadrado(float x) {
+    return (x * x);
+}

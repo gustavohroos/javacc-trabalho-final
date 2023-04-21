@@ -1,0 +1,29 @@
+main{
+
+  var int x;
+  var bool c;
+
+  x:=10;
+  c:=true;
+  
+  print(x);
+  print(c);
+
+  if(c){
+    x:=sum(x,5);
+    print(x);
+  };
+
+  while((x>0)) do{
+    x:=(x - 1);
+    print(x);
+  };
+
+  return x;
+}
+
+function int sum(int a, int b) {
+  var int result;
+  result:=(a+b);
+  return result;
+}

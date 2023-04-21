@@ -1,0 +1,38 @@
+main{
+	var float res1;
+	var float res2;
+	var float result;
+	var bool test;
+	var float xa;
+	var float xb;
+	var float xc;
+	var float xd;
+	
+	xa := 20.5;
+	xb := 5;
+	xc := 3;
+	xd := 5.4;
+	test := true;
+	
+	if ((test == true)){
+		res1 := adicao(xa, xb);
+		res2 := mult(xc, xd);
+		result := mult(res1, res2);
+	};
+
+	print(result);
+}
+
+function float adicao(int x, int y){
+	var float aux;
+	aux := (x + y);
+
+	return aux;
+}
+
+function float mult(int x, int y){
+	var float aux;
+	aux := (x * y);
+
+	return aux;
+}

@@ -1,0 +1,13 @@
+main{
+	var int count;
+	count := 0;
+	do{
+		count := (count + 1);
+
+		if((count == 2)){
+			count := (count * 2);
+		};
+		
+	} while ((count == 8));
+	print(count);
+}

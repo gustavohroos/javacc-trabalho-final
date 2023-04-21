@@ -1,0 +1,20 @@
+main{
+
+  var int num;
+  var float den;
+  var float fracao;
+  
+  num:=10;
+  den:=2.5;
+
+  if(((num>den)&&(den>0))){
+    fracao:=(num/den);
+    print(fracao);
+
+    do{
+      fracao:=(fracao*2);
+      print(fracao);
+    }while((fracao<100));
+  };
+
+}

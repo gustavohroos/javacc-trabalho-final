@@ -1,0 +1,23 @@
+main{
+    var int num;
+    var bool flag;
+    num:=1000000;
+    if((num>5)){
+        do{
+            flag:=true;
+            while(flag) do{
+                num:=sub(num,1);
+                print(num);
+                if((num==5)) {
+                    flag:=false;
+                };
+            };
+        }while((num>5));
+    };
+}
+
+function int sub(int a, int b) {
+    var int result;
+    result:=(a-b);
+    return result;
+}
